@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+section {
+    border: 2px solid black;
+    margin: 10px;
+    padding: 20px 10px;
+}
+h1 {
+    color:red;
+    font-size: 32px;
+    text-decoration: underline;
+    padding: 20px 0 0 10px;
+    font-weight: bold;
+}
+h2 {
+    font-size: 24px;
+    text-decoration: underline;
+    padding-top: 10px;
+}
+h3 {
+    padding: 15px  0;
+}
+.italic {
+    font-style: italic;
+}
+.bold {
+    font-weight: bold;
+}
+section.blue p {
+    color: blue;
+}
+section.green {
+    text-align: center;
+}
+section.green p {
+    color: green;
+}

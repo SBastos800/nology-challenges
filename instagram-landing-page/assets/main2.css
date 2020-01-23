@@ -1,0 +1,35 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container {
+    border: 2px solid black;
+    height: 500px;
+    width: 900px;
+    margin: 0 auto:
+}
+
+.left, .right {
+    width: 50%;
+    /* Height added for structure */
+    height: 100%;
+    border: 2px solid rebeccapurple;
+    float: left;
+}
+
+.left {
+    float: left;
+    background-image: url("./assets/phone-frame.png");
+    background-size: contain;
+    background-repeat: no-repeat; 
+}
+.right {
+    float: right;
+    
+}
+h1 {
+    border: 2px solid yellow;
+    text-align: center;
+}
