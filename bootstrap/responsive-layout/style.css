@@ -1,0 +1,128 @@
+.pos-f-t {
+    justify-content: flex-end;
+}
+
+.container {
+    /* display: flex; */
+    /* width: 100vw; */
+    /* flex-wrap: wrap;
+    justify-content: center; */   
+    /* flex-direction: column; */
+}
+
+.heading {
+    align-content: center;
+    margin: 10px 0;
+    border: 1px solid black;
+
+
+   
+}
+h1 { 
+    text-align: center;
+    /* height: 50px; */
+}
+
+section .kittie1 {
+    /* justify-content: center; */
+    /* align-items: center;
+    flex-direction: column; */
+    display: flex;
+    border: 1px solid red;
+    flex-direction: row; 
+    /* align-items: center; */
+    justify-content: center;
+    text-align: center;
+    margin: 10px 0;
+    
+}
+
+
+section .cards {
+    display: flex;
+    border: 1px solid green;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.card {
+    margin: 10px 0;
+
+}
+
+.contact {
+    text-align: center;
+    padding: 15px;
+}
+
+.last-picture {
+    border: 1px solid green;
+    margin: 10px 0;
+    text-align: center;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    
+    .container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    
+    section .heading {
+        /* display: flex; */
+        width: 50%;
+        align-items: center; 
+        /* height: 300px; */
+        border: 1px solid black;
+        flex-direction: row;
+        justify-content: center;  
+    }
+
+    /* h1 {
+       align-self: center;
+      
+    } */
+
+    .kittie1 {
+        /* display: flex; */
+        width: 50%;
+        justify-content: right;   
+    }
+
+    section .cards {
+        flex-direction: row;
+        border: 1px solid black;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    section .contact{
+        width: 100%;
+        border: 1px solid green;
+        justify-content: flex-start;
+    }
+
+    .contact h2 {
+        text-align: left;
+    }
+
+    form {
+        width: 50%;
+        border: 1px solid red;
+    }
+
+
+    .last-picture {
+        width: 50%;
+        border: 1px solid blue;
+        text-align: center;
+        margin: 0px;
+    }   
+} 
